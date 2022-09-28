@@ -12,7 +12,7 @@ import React from 'react';const Index = () => {
               <Image className="cursor-pointer" src="/S.Watch.png" width={100} height={24}/>
             </div>
             <button
-          className=" block xl:hidden text-gray py-8 px-6"
+          className=" block xl:hidden text-gray pt-10 px-6"
           onClick={() => setShowMenu(!showMenu)}
         >
            <svg
@@ -129,7 +129,7 @@ import React from 'react';const Index = () => {
         </div>
 
 
-        <div class="mt-72 mx-20 pr-20 container mx-auto flex flex-col xl:flex-row lg:flex-row mx-auto md:flex-col sm:flex-col">
+        <div class="mt-72 mx-20 pr:20 xl:pr-0 lg:pr-20 md:pr-20 sm:pr-20 container mx-auto flex flex-col xl:flex-row lg:flex-row mx-auto md:flex-col sm:flex-col">
           <div class="xl:w-1/2 lg:w-1/2 md:w-4/4 sm:w-11/12 pr-8 mx-auto">
             <p class="font-medium text-4xl text-slate-800 pb-4 mx-auto">
               About Us
@@ -157,11 +157,11 @@ import React from 'react';const Index = () => {
           <div class="xl:w-1/2 lg:w-1/2 md:w-4/5 sm:w-5/6 mx-auto ">
             <div class=" gap-x-4 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid ">
               <div className='gap-y-4 grid grid-cols-1 w-full'>
-                <Image className="cursor-pointer" src="/Rectangle 83.png" width={296} height={168}/>
+                <Image className="cursor-pointer" src="/Rectangle 82.png" width={296} height={168}/>
                 <Image className="cursor-pointer" src="/Rectangle 84.png" width={296} height={168}/>
               </div>
               <div className='gap-y-4 grid grid-cols-1 w-full pt-0 xl:pt-0 lg:pt-0 md:pt-4 sm:pt-4'>
-                <Image className="cursor-pointer" src="/Rectangle 82.png" width={296} height={368}/>
+                <Image className="cursor-pointer" src="/Rectangle 83.png" width={296} height={368}/>
               </div>
             </div>
           </div>
@@ -253,6 +253,52 @@ import React from 'react';const Index = () => {
           </div>
         </div>
 
+
+          <footer class="mx-auto w-full bg-gray-800 bg-contain">
+            <div class="mx-auto flex flex-col xl:flex-row lg:flex-row md:flex-row sm:flex:col gap-12 px-12 py-20">
+              <div class="w-full">
+              <Image className="cursor-pointer" src="/S.Watch (2).png" width={100} height={24}/>
+              <h1 class="text-white mt-4 w-10/12 lg:w-11/12 xl:w-11/12 2xl:w-10/12">
+                The world sees the timepiece that you choose to wear so make sure it represents you
+              </h1>
+              <div class="flex gap-4 mt-4">
+                <div class="cursor-pointer">
+                <Image className="cursor-pointer" src="/Group 321.png" width={32} height={32}/>
+                </div>
+                <div class="cursor-pointer">
+                <Image className="cursor-pointer" src="/Group 322.png" width={32} height={32}/>
+                </div>
+                <div class="cursor-pointer">
+                <Image className="cursor-pointer" src="/Group 323.png" width={32} height={32}/>
+                </div>
+                <div class="cursor-pointer">
+                <Image className="cursor-pointer" src="/Group 324.png" width={32} height={32}/>
+                </div>
+              </div>
+            </div>
+          <div class="w-10/12">
+            <h1 class="font-bold text-xl text-white">Navigation</h1>
+            <h1 class="mt-4 text-white cursor-pointer ">Home</h1>
+            <h1 class="mt-4 text-white cursor-pointer ">About Us</h1>
+            <h1 class="mt-4 text-white cursor-pointer ">Services</h1>
+          </div>
+          <div class="w-10/12">
+            <h1 class="font-bold text-xl text-white">Information</h1>
+            <h1 class="mt-4 text-white cursor-pointer ">+123456789</h1>
+            <h1 class="mt-4 text-white cursor-pointer ">Seako@gmail.com</h1>
+            <h1 class="mt-4 text-white cursor-pointer ">890,Green Lane Pakistan</h1>
+          </div>
+          <div class="w-10/12">
+            <h1 class="font-bold text-xl text-white">Opening Hours</h1>
+            <h1 class="mt-4 text-white cursor-pointer ">Mon - friday: 9:00 - 5:00</h1>
+            <h1 class="mt-4 text-white cursor-pointer ">Friday 9:00 - 4:00</h1>
+            <h1 class="mt-4 text-white cursor-pointer ">Sat - Sun Off</h1>
+          </div>
+        </div>
+        <h1 class="text-white pb-12 text-xl text-center w-10/12 lg:w-11/12 xl:w-11/12 2xl:w-10/12">
+          Copyright 2022 All rights reserved | Watch is made with by Seako five
+        </h1>
+      </footer>
 
       </>
     );
