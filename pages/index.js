@@ -9,7 +9,7 @@ import React from 'react';const Index = () => {
         <div className="">
           <div className="flex flex-wrap justify-between items-center">
             <div className='pl-20 mt-10'>
-              <Image className="cursor-pointer" src="/S.Watch.png" width={100} height={24}/>
+              <Image className="cursor-pointer" src="/S.Watch.png" width={100} height={24} alt=""/>
             </div>
             <button
           className=" block xl:hidden text-gray pt-10 px-6"
@@ -60,7 +60,7 @@ import React from 'react';const Index = () => {
             </ul>
 
             <div className='pl-20 inset-0 hidden xl:block lg:block'>
-              <Image className="cursor-pointer" src="/Group 303.png" width={515} height={530}/>
+              <Image className="cursor-pointer" src="/Group 303.png" width={515} height={530} alt=""/>
             </div>
             </div>
 
@@ -75,7 +75,7 @@ import React from 'react';const Index = () => {
                 height={40}
                 alt=""
                 onClick={() => setShowMenu(!showMenu)}
-              />
+                />
             </div>
             <ul className="xl:hidden lg:hidden flex bg-gray-100 w-full flex-col w-full px-8 rounded-xl my-6">
               <li className="cursor-pointer relative pb-2 pt-8">
@@ -157,11 +157,11 @@ import React from 'react';const Index = () => {
           <div class="xl:w-1/2 lg:w-1/2 md:w-4/5 sm:w-5/6 mx-auto ">
             <div class=" gap-x-4 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid ">
               <div className='gap-y-4 grid grid-cols-1 w-full'>
-                <Image className="cursor-pointer" src="/Rectangle 82.png" width={296} height={168}/>
-                <Image className="cursor-pointer" src="/Rectangle 84.png" width={296} height={168}/>
+                <Image className="cursor-pointer" src="/Rectangle 82.png" width={296} height={168} alt=""/>
+                <Image className="cursor-pointer" src="/Rectangle 84.png" width={296} height={168} alt=""/>
               </div>
               <div className='gap-y-4 grid grid-cols-1 w-full pt-0 xl:pt-0 lg:pt-0 md:pt-4 sm:pt-4'>
-                <Image className="cursor-pointer" src="/Rectangle 83.png" width={296} height={368}/>
+                <Image className="cursor-pointer" src="/Rectangle 83.png" width={296} height={368} alt=""/>
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@ import React from 'react';const Index = () => {
             <div class="mt-12 justify-center items-center">
               <div class=" ">
                 <div class="relative ">
-                  <Image className="cursor-pointer" src="/Rectangle 78.png" width={515} height={560}/>
+                  <Image className="cursor-pointer" src="/Rectangle 78.png" width={515} height={560} alt=""/>
                 <div class="absolute bottom-10 left-7 bg-gray-100 py-3 px-4 rounded-lg opacity-75">
                     X Hybrid Smartwatch
                   </div>
@@ -187,7 +187,7 @@ import React from 'react';const Index = () => {
             <div class="">
               <div class="">
                 <div class="relative">
-                <Image className="cursor-pointer" src="/Rectangle 81.png" width={515} height={330}/>
+                <Image className="cursor-pointer" src="/Rectangle 81.png" width={515} height={330} alt=""/>
                   <div class="absolute bottom-10 left-7 bg-gray-100 py-3 px-4 rounded-lg opacity-75">
                     Timex Analog Women's watch
                   </div>
@@ -201,7 +201,7 @@ import React from 'react';const Index = () => {
             <div class="mt-12 justify-center items-center">
               <div class="">
                 <div class="relative">
-                <Image className="cursor-pointer" src="/Rectangle 81.png" width={515} height={330}/>
+                <Image className="cursor-pointer" src="/Rectangle 81.png" width={515} height={330} alt=""/>
                   <div class="absolute bottom-10 left-7 bg-gray-100 py-3 px-4 rounded-lg opacity-75">
                     Timex Analog Women's watch
                   </div>
@@ -211,7 +211,7 @@ import React from 'react';const Index = () => {
             <div class="">
               <div class=" ">
                 <div class="relative ">
-                <Image className="cursor-pointer" src="/Rectangle 78.png" width={515} height={560}/>
+                <Image className="cursor-pointer" src="/Rectangle 78.png" width={515} height={560} alt=""/>
                   <div class="absolute bottom-10 left-7 bg-gray-100 py-3 px-4 rounded-lg opacity-75">
                     X Hybrid Smartwatch
                   </div>
@@ -248,7 +248,7 @@ import React from 'react';const Index = () => {
               </div>
             </div>
             <div class="w-11/12 justify-end items-end flex mx-14 xl:mx-0 lg:mx-0 md:mx-10 sm:mx-20">
-              <Image className="cursor-pointer" src="/Rectangle 89.png" width={624} height={410}/>
+              <Image className="cursor-pointer" src="/Rectangle 89.png" width={624} height={410} alt=""/>
             </div>
           </div>
         </div>
@@ -257,22 +257,22 @@ import React from 'react';const Index = () => {
           <footer class="mx-auto w-full bg-gray-800 bg-contain">
             <div class="mx-auto flex flex-col xl:flex-row lg:flex-row md:flex-row sm:flex:col gap-12 px-12 py-20">
               <div class="w-full">
-              <Image className="cursor-pointer" src="/S.Watch (2).png" width={100} height={24}/>
+              <Image className="cursor-pointer" src="/S.Watch (2).png" width={100} height={24} alt=""/>
               <h1 class="text-white mt-4 w-10/12 lg:w-11/12 xl:w-11/12 2xl:w-10/12">
                 The world sees the timepiece that you choose to wear so make sure it represents you
               </h1>
               <div class="flex gap-4 mt-4">
                 <div class="cursor-pointer">
-                <Image className="cursor-pointer" src="/Group 321.png" width={32} height={32}/>
+                <Image className="cursor-pointer" src="/Group 321.png" width={32} height={32} alt=""/>
                 </div>
                 <div class="cursor-pointer">
-                <Image className="cursor-pointer" src="/Group 322.png" width={32} height={32}/>
+                <Image className="cursor-pointer" src="/Group 322.png" width={32} height={32} alt=""/>
                 </div>
                 <div class="cursor-pointer">
-                <Image className="cursor-pointer" src="/Group 323.png" width={32} height={32}/>
+                <Image className="cursor-pointer" src="/Group 323.png" width={32} height={32} alt=""/>
                 </div>
                 <div class="cursor-pointer">
-                <Image className="cursor-pointer" src="/Group 324.png" width={32} height={32}/>
+                <Image className="cursor-pointer" src="/Group 324.png" width={32} height={32} alt=""/>
                 </div>
               </div>
             </div>
