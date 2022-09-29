@@ -1,9 +1,13 @@
 import { useEffect, useState } from 'react'
 import Image from "next/image";
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 import React from 'react';const Index = () => {
   const [showMenu, setShowMenu] = useState(false);
+
     return (
       <>
+      <div className='overflow-x-hidden'>
         <div className='container'>
       <div className=" justify-center mx-auto border-b">
         <div className="">
@@ -115,7 +119,7 @@ import React from 'react';const Index = () => {
 
     
 
-    <div class="pt-24 pl-20 mx-auto">
+        <div class="pt-24 pl-20 mx-auto">
           <h1 class="font-semibold text-6xl pb-6 text-slate-800 max-w-[624px]">
             Super Luxury Smart Watch
           </h1>
@@ -129,6 +133,543 @@ import React from 'react';const Index = () => {
         </div>
 
 
+        <div className="container mx-auto pt-32 pb-32 hidden sm:hidden md:hidden lg:block xl:block 2xl:block 3xl:block" id='contact-section'>
+                <div className=" mt-12">
+                <div class="2xl:mx-auto 2xl:container container mx-auto flex justify-center items-center mt-12 gap-12 ">
+            <div class="px-3 py-12 w-full ml-6 2xl:w-11/12 lg:w-11/12">
+                    <CarouselProvider
+                    naturalSlideWidth={100}
+                    naturalSlideHeight={100}
+                    totalSlides={8}
+                    visibleSlides={4}
+                    className="lg:mr-20"
+                    infinite={true}
+                    step={1}
+                  >
+                    {" "}
+                    <div className="">
+                      <div className="flex justify-between items-center pb-10 " >
+                        <div class="text-xl sm:text-2xl font-bold text-center text-gray-800 mb-12 pr-3">
+                          Explore Popular Categories
+                        </div>
+                        <div className='gap-x-4'>
+                        <ButtonNext>
+                          {" "}
+                          <Image className="cursor-pointer gap-4" src="/Frame 222.png" width={45} height={32} alt=""/>
+                        </ButtonNext>
+                        <ButtonNext>
+                          {" "}
+                          <Image className="cursor-pointer gap-4" src="/Frame 221.png" width={45} height={32} alt=""/>
+                        </ButtonNext>
+                        </div>
+                      </div>
+
+                      <Slider>
+                        <div className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
+                          <Slide index={0}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 68.png"
+                              width="296"
+                              height="265"
+                              className="my-auto "
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={1}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 70.png"
+                              width="296"
+                              height="265"
+                              className="my-auto px-8"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={2}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 71.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={3}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 72.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={4}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 68.png"
+                              width="296"
+                              height="265"
+                              className="my-auto px-8"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={5}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 70.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={6}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 71.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={7}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 72.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                        </div>
+                      </Slider>
+                    </div>
+                  </CarouselProvider>
+                  </div>            
+                </div></div></div>
+
+
+                <div className="container mx-auto pt-32 pb-32 hidden sm:hidden md:block lg:hidden xl:hidden 2xl:hidden 3xl:hidden" id='contact-section'>
+                <div className=" mt-12">
+                <div class="2xl:mx-auto 2xl:container container mx-auto flex justify-center items-center mt-12 gap-12 ">
+            <div class="px-3 py-12 w-full ml-6 2xl:w-11/12 lg:w-6/5">
+                    <CarouselProvider
+                    naturalSlideWidth={100}
+                    naturalSlideHeight={100}
+                    totalSlides={8}
+                    visibleSlides={2}
+                    className="lg:mr-20"
+                    infinite={true}
+                    step={1}
+                  >
+                    {" "}
+                    <div className="">
+                      <div className="flex justify-between items-center pb-10 " >
+                        <div class="text-xl sm:text-2xl font-bold text-center text-gray-800 mb-12 pr-3">
+                          Explore Popular Categories
+                        </div>
+                        <div className='gap-x-4'>
+                        <ButtonNext>
+                          {" "}
+                          <Image className="cursor-pointer gap-4" src="/Frame 222.png" width={45} height={32} alt=""/>
+                        </ButtonNext>
+                        <ButtonNext>
+                          {" "}
+                          <Image className="cursor-pointer gap-4" src="/Frame 221.png" width={45} height={32} alt=""/>
+                        </ButtonNext>
+                        </div>
+                      </div>
+
+                      <Slider>
+                        <div className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
+                          <Slide index={0}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 68.png"
+                              width="296"
+                              height="265"
+                              className="my-auto "
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={1}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 70.png"
+                              width="296"
+                              height="265"
+                              className="my-auto px-8"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={2}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 71.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={3}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 72.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={4}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 68.png"
+                              width="296"
+                              height="265"
+                              className="my-auto px-8"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={5}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 70.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={6}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 71.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={7}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 72.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                        </div>
+                      </Slider>
+                    </div>
+                  </CarouselProvider>
+                  </div>            
+                </div>
+              </div>
+            </div>
+
+
+                <div className="container mx-auto pt-32 pb-32 ml-16 sm:block md:hidden lg:hidden xl:hidden 2xl:hidden 3xl:hidden" id='contact-section'>
+                <div className=" mt-12">
+                <div class="2xl:mx-auto 2xl:container container mx-auto flex justify-center items-center mt-12 gap-12 ">
+            <div class="px-3 py-12 w-full ml-6 2xl:w-11/12 lg:w-6/5">
+                    <CarouselProvider
+                    naturalSlideWidth={100}
+                    naturalSlideHeight={100}
+                    totalSlides={8}
+                    visibleSlides={1}
+                    className="lg:mr-20"
+                    infinite={true}
+                    step={1}
+                  >
+                    {" "}
+                    <div className="">
+                      <div className="flex justify-between items-center pb-10 " >
+                        <div class="text-xl sm:text-2xl font-bold text-center text-gray-800 mb-12 pr-3">
+                          Explore Popular Categories
+                        </div>
+                        <div className='gap-x-4'>
+                        <ButtonNext>
+                          {" "}
+                          <Image className="cursor-pointer gap-4" src="/Frame 222.png" width={45} height={32} alt=""/>
+                        </ButtonNext>
+                        <ButtonNext>
+                          {" "}
+                          <Image className="cursor-pointer gap-4" src="/Frame 221.png" width={45} height={32} alt=""/>
+                        </ButtonNext>
+                        </div>
+                      </div>
+
+                      <Slider>
+                        <div className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
+                          <Slide index={0}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 68.png"
+                              width="296"
+                              height="265"
+                              className="my-auto "
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={1}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 70.png"
+                              width="296"
+                              height="265"
+                              className="my-auto px-8"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={2}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 71.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={3}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 72.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={4}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 68.png"
+                              width="296"
+                              height="265"
+                              className="my-auto px-8"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={5}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 70.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={6}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 71.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                          <Slide index={7}>
+                            {" "}
+                            <Image
+                              src="/Rectangle 72.png"
+                              width="296"
+                              height="265"
+                              className="my-auto"
+                            />
+                            <div class="bg-gray-800 p-4 text-white flex justify-between rounded-b-lg">
+                              <button>
+                                Apple Watch
+                              </button>
+                              <p class="font-medium">
+                                $299
+                              </p>
+                            </div>
+                          </Slide>
+                        </div>
+                      </Slider>
+                    </div>
+                  </CarouselProvider>
+                  </div>            
+                </div>
+              </div>
+            </div>
+
+
+
+                
         <div class="mt-72 mx-20 pr:20 xl:pr-0 lg:pr-20 md:pr-20 sm:pr-20 container mx-auto flex flex-col xl:flex-row lg:flex-row mx-auto md:flex-col sm:flex-col">
           <div class="xl:w-1/2 lg:w-1/2 md:w-4/4 sm:w-11/12 pr-8 mx-auto">
             <p class="font-medium text-4xl text-slate-800 pb-4 mx-auto">
@@ -299,6 +840,7 @@ import React from 'react';const Index = () => {
           Copyright 2022 All rights reserved | Watch is made with by Seako five
         </h1>
       </footer>
+      </div>
 
       </>
     );
